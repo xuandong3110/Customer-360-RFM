@@ -72,4 +72,7 @@ END;
 
 call `rfm-project`.calculating_rfm_data
 
+create event rfm_date
+on schedule every 1 month 
+do call `rfm-project`.calculating_rfm_data
 show processlist
