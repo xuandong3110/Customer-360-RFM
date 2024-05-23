@@ -1,4 +1,4 @@
-select * from customer_registered cr 
+
 select * from customer_transaction ct 
 
 
